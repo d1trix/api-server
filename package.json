@@ -1,0 +1,27 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "Node.js RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1trix/api-server.git"
+  },
+  "author": "Ivaylo Tsvetkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d1trix/api-server/issues"
+  },
+  "homepage": "https://github.com/d1trix/api-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

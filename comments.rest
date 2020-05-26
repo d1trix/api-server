@@ -1,0 +1,16 @@
+GET http://localhost:3000/work-effort/dev/comments/
+
+###
+
+DELETE http://localhost:3000/work-effort/dev/comments/5ecd973f20c1182f849d9313
+
+###
+
+POST http://localhost:3000/work-effort/dev/comments
+Content-Type: application/json
+
+{
+    "work_effort_id": "dev",
+    "comment": "first test",
+    "user_id": "dev1"
+  }
